@@ -2,7 +2,7 @@ let iframe_block 		= document.getElementById('iframe_block');
 let iframe 				= document.getElementById('iframe');
 let browserOpenButton 	= document.getElementById("browserOpenButton"); 
 let mobileOpenButton 	= document.getElementById("mobileOpenButton"); 
-
+let sideNav = document.getElementById('mySidenav');
 let isMobile            = false; 
 let globalSize          = 'normal'; 
 
@@ -44,6 +44,7 @@ function windowHeight() {
 }
 
 function openChatWindow() {
+  sideNav.style.display='none';
   reIdentifyIframeWebsite(); 
   if(globalSize === 'normal') { 
     removeClassTwoAddClassOne(); 
