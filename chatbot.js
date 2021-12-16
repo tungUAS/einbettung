@@ -44,7 +44,7 @@ function windowHeight() {
 }
 
 function openChatWindow() {
-  sideNav.style.display='none';
+  sideNav.style.display="none";
   reIdentifyIframeWebsite(); 
   if(globalSize === 'normal') { 
     removeClassTwoAddClassOne(); 
