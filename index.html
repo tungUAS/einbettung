@@ -21,6 +21,8 @@
 <meta name="generator" content="TYPO3 CMS">
 
 
+<link rel="stylesheet" type="text/css" href="child.css" media="all">
+<link rel="stylesheet" type="text/css" href="popup.css" media="all">
 <link rel="stylesheet" type="text/css" href="typo3conf/ext/news/Resources/Public/Css/news-basiceac9.css?1567098669" media="all">
 <link rel="stylesheet" type="text/css" href="typo3temp/assets/compressed/merged-2c71024c4474e811b250f220f96674452d4f.css?1632389274" media="all">
 
@@ -112,21 +114,25 @@
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff  ">
 
-<link rel="stylesheet" href="typo3temp/assets/vhs-assets-fancybox-css-stylefc09.css?1639661828" />
+			<link rel="stylesheet" href="typo3temp/assets/vhs-assets-fancybox-css-stylefc09.css?1639661828" />
 
 			<link rel="stylesheet" type="text/css" href="typo3conf/ext/hsregensburg/Resources/Public/Css/print.css" media="print" />
 		
 <script type="text/javascript" src="typo3temp/assets/vhs-assets-jquery-jquery-uifc09.js?1639661828"></script>
+
+
 </head>
 <body>
 
 
 
 
-
+	
 
 <div class="wrapper page  startpage" id="page">
-	
+	<div id="mySidenav" class="sidenav">
+       <a  style="font-family:Orator_Std_Medium" onclick="openChatWindow()" href="#" id="feedback"></a> 
+    </div> 
 		
         <div id="offcanvas">
             
@@ -6345,6 +6351,13 @@
 		</footer>
 	
 </div>
+<div id="iframe_block" class="chatbot invisible">
+	<iframe id="iframe" class="chat-window invisible" src="https://oth-regensburg.eu-de.mybluemix.net" allowusermedia allow="microphone" data-src="about:blank" frameBorder="0" allowfullscreen class="video-embed-item" allow="fullscreen"></iframe>
+  </div>
+  <div id="browserOpenButton" title="Chatte mit mir! :-)" class="invisible" style="cursor: pointer" width="50px" height="50px" src="./chat-icon.png" onclick="openChatWindow()" alt="Chat Icon"></div>
+  <div id="mobileOpenButton" title="Chatte mit mir! :-)" class="invisible" style="cursor: pointer" width="50px" height="50px" src="./chat-icon.png" onclick="openChatWindow()" alt="Chat Icon"></div>
+  
+<script src="chatbot.js"></script>
 <script id="powermail_conditions_container" data-condition-uri="index9dc5.html?type=3132"></script>
 
 <script src="typo3temp/assets/compressed/merged-2847efcc728cd5877be4228d7de49ac62d4f.js?1632389274" type="text/javascript"></script>

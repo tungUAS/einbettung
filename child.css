@@ -1,0 +1,35 @@
+#mySidenav a {
+    position: fixed; 
+    right: -25px; 
+    transition: 0.35s;
+    height: 80px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 14px 14px 14px 14px;
+  
+    /* transform: rotate(270deg);
+    transform-origin: right; */
+    /* font-weight: bold; */
+    align-items: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-right: 10px;;
+    padding-left: 10px;
+    box-shadow: 0 -5px 5px -5px #333;
+  
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  
+  #feedback {
+    top: 400px;
+    background-image: url('assets/giphy.gif');
+    background-size: contain;
+    background-repeat: repeat;
+  }
