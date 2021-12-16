@@ -90,6 +90,7 @@ function minimizeChatWindow() {
   reIdentifyIframeWebsite(); 
   iframe_block.style.visibility = 'hidden'; 
   iframe.style.visibility = 'hidden';
+  sideNav.style.display="block";
   showOpenButton(); 
 }
 
