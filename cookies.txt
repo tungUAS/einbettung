@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.oth-regensburg.de	TRUE	/supportwiki/	FALSE	1999999999	DokuWiki	h38nlvr3hhi0chrol05h037263
+www.oth-regensburg.de	TRUE	/supportwiki/	FALSE	1999999999	DW86785e38a652233ed30c11b5bba8df07	deleted
+www.oth-regensburg.de	TRUE	/	FALSE	1999999999	fe_typo_user	5dbc78e332dcddd53cedfd648a683434
+www.oth-regensburg.de	TRUE	/	FALSE	1999999999	samesite	lax
+
