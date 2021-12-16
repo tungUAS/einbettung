@@ -12,6 +12,12 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
   globalSize            = 'maximal'; 
 } 
 
+if(iframe_block.style.visibility==="hidden")
+  sideNav.style.display="block";
+if(iframe.style.visibility==="hidden")
+  sideNav.style.display="block";
+
+  
 
 if(isMobile) { 
   browserOpenButton.style.display = 'none'; 
